@@ -11,12 +11,16 @@ Created on Sun Aug  9 15:05:48 2020
 #m treba zbrojiti sve elemente unutar zadanog raspona (
 #uključujući granice) i ispisati rezultat.
 
-a=int(input("Unesite broj"))
-b=int(input("UNESITE broj"))
-suma=0
-while (a<=b):
-    for i in range(a,b):
-        print(i)
-        suma+=i
-print(suma)
+a = int(input("Unesite broj a: "))
+b = int(input("Unesite broj b: "))
+suma = 0
+while ( a >= b):
+    a = int(input("Unesite broj ponovno a:"))
     
+    
+    
+for i in range(a,b+1):
+    suma +=i
+print(suma)
+           
+          
