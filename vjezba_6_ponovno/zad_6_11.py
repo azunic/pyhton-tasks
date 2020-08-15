@@ -8,7 +8,7 @@ Created on Sat Aug 15 15:34:36 2020
 #Napisati program koji će unijeti ime datoteke s ekstenzijom. 
 #
 #	Ispisati poruku o vrsti datoteke: „Naziv.txt je tekstualna 	
-#datoteka“ (npr. tekstualna (txt), muzička (mp3), 	grafička (jpg),
+#datoteka“ (npr. tekstualna (txt), muzička (mp3),
 # ostale vrste datoteka).
 #	Ispisati upozorenje ukoliko se u nazivu datoteke nalaze 	
 #nedopušteni znakovi: 
