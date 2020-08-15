@@ -14,7 +14,7 @@ suma = 0
 suma_neparnih = 0
 mnozenje = 1
 for i in range(0, 10):
-    x = int(input("Unesite ", i + 1, "broj"))
+    x = int(input("Unesite ", i + 1, ". broj"))
     mnozenje = mnozenje * x
 
     if (x % 2 == 0):

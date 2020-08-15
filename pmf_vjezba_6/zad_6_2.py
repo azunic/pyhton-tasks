@@ -16,18 +16,16 @@ Created on Tue Aug 11 18:04:29 2020
 
 def provjera(broj):
     
-    zadnja_znamenka = broj%10
-    prva_znamenka = broj//1000
+    zadnja_znamenka = broj % 10
+    prva_znamenka = broj // 1000
     print(zadnja_znamenka,prva_znamenka)
     
-    if (1000 < broj <9999):
+    if (broj >= 1000 and broj <= 9999):
         print("broj ima 4 znamneke")
         suma = zadnja_znamenka + prva_znamenka
-        if (suma % 2 ==0):
+        if (suma % 2 == 0):
             print("suma je paran broj")
-        
-    
-        
+       
     else:
         print("Uneseni broj nije cetveroznamenkast")
 

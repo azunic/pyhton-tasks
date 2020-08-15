@@ -14,7 +14,7 @@ lozinka = "Ana12345"
 
 x = input("Unesite sifru: ")
 
-while (lozinka !=x):
+while (lozinka != x):
     x=input("Unesite ponovno")
 
 

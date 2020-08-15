@@ -20,7 +20,7 @@ def znamenkast(broj):
     druga_znamenka = broj % 10
     suma = 0
     suma = prva_znamenka + druga_znamenka
-    print(prva_znamenka,druga_znamenka)
+    print(prva_znamenka, druga_znamenka)
     print(suma)
     if (suma % 2==0):
         print("suma je parna")
@@ -33,9 +33,9 @@ def provjera_znamenki():
     druga_znamenka = broj % 10
     
     suma = prva_znamenka + druga_znamenka
-    print(prva_znamenka,druga_znamenka)
+    print(prva_znamenka, druga_znamenka)
     print(suma)
-    if(suma <9):
+    if(suma <= 9):
         print("jednoznamenkasta")
     else:
         print("dvoznamenkasta")
@@ -45,7 +45,7 @@ def provjera_znamenki():
 
     
 broj = int(input("Unesite broj"))
-while (1000  > broj < 9999):
+while (broj < 1000 or broj > 9999)):
     broj = int(input("Unesite broj"))
     
 znamenkast(broj)

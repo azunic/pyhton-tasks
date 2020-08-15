@@ -13,8 +13,8 @@ Created on Tue Aug 11 18:17:00 2020
 
 broj = int(input("Unesite broj"))
 
-while(999 >= broj < 1000):
-    broj=int(input("Unesite broj ponovno"))
+while(broj  < 1000 or broj > 9999):
+    broj = int(input("Unesite broj ponovno"))
     
 print("Broj je u redu")
     

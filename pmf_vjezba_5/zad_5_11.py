@@ -16,17 +16,17 @@ broj=int(input("Unesite broj"))
     
 brojac_jednoznamenkastih = 0
 brojac_dvoznamenkastih = 0
-brojac_troznameknastih =0
+brojac_troznameknastih = 0
 
-while (broj !=0):
+while (broj !=0)
     
       broj=int(input("Unesite broj")) 
-      if ( 1<broj <9):
-          brojac_jednoznamenkastih +=1
-      elif(10 <broj <99):
-           brojac_dvoznamenkastih+=1
-      elif (100 < broj <999):
-          brojac_troznameknastih+=1
+      if (broj > 0 and broj < 10 ):
+          brojac_jednoznamenkastih += 1
+      elif(broj >= 10 and broj <= 99):
+           brojac_dvoznamenkastih += 1
+      elif (broj >= 100 and broj <= 999):
+          brojac_troznameknastih += 1
       print(brojac_jednoznamenkastih,brojac_dvoznamenkastih,brojac_troznameknastih)
         
         

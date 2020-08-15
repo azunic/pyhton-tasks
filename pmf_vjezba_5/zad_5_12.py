@@ -16,7 +16,7 @@ Created on Tue Aug 11 16:48:47 2020
 #
 
 
-broj_u_metrima = int(input("Unesite duljinu u metrima"))
+broj_u_metrima = int(input("Unesite duljinu u metrima: "))
  
 milimetri = 0
 centrimetri = 0
@@ -29,22 +29,22 @@ print("3. Pretvorba unesene duljine u kilometre")
 print("4. Novi unos duljine")
 print("5. Kraj")
 
+korisnik = 0
+while(korisnik != 5):
+    
+    korisnik = int(input("Unesite broj "))
 
-korisnik = int(input("Unesite broj "))
-if(korisnik == 1):
-    print("jedan")
-    milimetri = broj_u_metrima * 10000
-    print(milimetri)
-elif(korisnik ==2):
-    print("dva")
-    centimetri = broj_u_metrima * 100
-    print(centimetri)
-elif(korisnik == 3):
-    print("tri")
-    kilometri = broj_u_metrima / 1000
-    print(kilometri)
-elif(korisnik ==4):
-    print("cetiri")
-    novi_unos = int(input("Unesite novi broj"))
-else:
-    print("kraj")
+    if(korisnik == 1):
+        milimetri = broj_u_metrima * 10000
+        print("Milimetri: ", milimetri)
+    elif(korisnik == 2):
+        centimetri = broj_u_metrima * 100
+        print("centimetri: ", centimetri)
+    elif(korisnik == 3):
+        kilometri = broj_u_metrima / 1000
+        print("kilometri: ", kilometri)
+    elif(korisnik == 4):
+        broj_u_metrima = int(input("Unesite duljinu u metrima: "))
+        
+        
+print("kraj")

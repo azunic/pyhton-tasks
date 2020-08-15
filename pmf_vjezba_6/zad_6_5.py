@@ -10,17 +10,29 @@
 
 #PROVJERIT //
 
-N = int(input("Unesite broj"))
+def Maksimalni(N):
+    lista = []
 
-lista = []
-
-for i in range(0,N):
-    broj=input("Unesite broj")
-    lista.append(broj)
+    for i in range(0, N):
+        broj = int(input("Unesite broj: "))
+        lista.append(broj)
+    
     max_broj = lista[0]
     min_broj = lista[0]
-    if(max_broj < lista[i]):
-        max_broj = lista[i]
-print(max_broj)
+    for broj in lista:
+        
+        if(broj < min_broj):
+            min_broj = broj 
+            
+        if(broj > max_broj):
+            max_broj = broj
+            
+    print("Minimalni broj: ", min_broj)
+    print("Maksimalni broj: ", max_broj)
     
+
+N = int(input("Unesite broj"))
+Maksimalni(N)
+
+
    
