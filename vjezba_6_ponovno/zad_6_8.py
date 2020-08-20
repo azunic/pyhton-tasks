@@ -20,7 +20,7 @@ korisnik_unos = 0
 
 while(korisnik_unos != broj):
     korisnik_unos = int(input("Unesite broj: "))
-    i +=1
+    i += 1
     if(korisnik_unos < broj):
         print("Broj je veci od vaseg unosa")
     else:

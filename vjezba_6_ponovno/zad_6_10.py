@@ -13,10 +13,16 @@ Created on Sat Aug 15 15:32:48 2020
 
 
 string  = input("Unesie recenicu: ")
+novistring = string.split()
+print(novistring)
 
-rijec = "kelj"
-
-x =string.replace("kupus","kelj")
-print(x)
-
-
+rezultat = ""
+for rijec in novistring:
+    if (rijec == "kupus"):
+        rezultat += "kelj "
+    else:
+        rezultat += (rijec + ' ')
+print(rezultat)
+    
+    
+# ana kupus kelj ana ne slusa nista zivo kupuskusus

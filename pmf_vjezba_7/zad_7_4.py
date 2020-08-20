@@ -13,15 +13,14 @@ Created on Sun Aug 16 13:49:16 2020
 #Koristite funkciju „Prost” koja prima broj i vraća bool vrijednost (True ili False) ovisno o tome je li broj prost ili ne.
 
 def Prost(n):
- for i in range(2,n+1):
-     if (n % i ==0):
-         return False
-     else:
-       return  True
+    for i in range(2, n):
+        if (n % i == 0):
+            return False
+    return True
 
 
 n=0
-while (n <1 or n >100):
+while (n < 1 or n > 100):
     n = int(input("Unesite broj:"))
 
 print(Prost(n))

@@ -14,14 +14,14 @@ def Maksmin(N):
     lista = []
     i = 0
     broj = 0
-    while (i < N ):
+    while (i < N):
         broj = int(input("Unesite dvoznamenkasti broj: "))
         if(broj > 9  and broj < 99):
             lista.append(broj)
             i += 1
 
-            max_broj = lista[0]
-            min_broj = lista[0]
+    max_broj = lista[0]
+    min_broj = lista[0]
     print(lista)
     
     for j in lista:
@@ -40,7 +40,3 @@ print(Maksmin(N))
 
    
 
-
-N = int(input("Unesite dvoznamenkaste brojeve"))
-
-print(Maksmin(N))

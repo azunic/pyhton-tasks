@@ -13,7 +13,6 @@ najdulja_rijec = ''
 
 for i in range(8):
     rijec = input("Unesite string")
-
    
     duljina1 = (len(najdulja_rijec))
     duljina2 = (len(rijec))
@@ -21,15 +20,7 @@ for i in range(8):
     if (duljina2 > duljina1):
         najdulja_rijec = rijec
 
-
-
-
 duljina_najdulje_rijeci=len(najdulja_rijec)
-
-
-
 
 print(najdulja_rijec)
 print(duljina_najdulje_rijeci)
-    
-    

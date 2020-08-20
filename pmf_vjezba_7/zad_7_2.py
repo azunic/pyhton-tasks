@@ -17,16 +17,9 @@ def BrojZnamenki(broj):
     brojac = 0
     while broj > 0:
         suma += broj % 10
-        broj/= 10
-        broj = int(broj)
-        brojac +=1
-    return(suma,brojac)
-
-   
-
-
-
-
+        broj //= 10       
+        brojac += 1
+    return(suma, brojac)
 
 broj = int(input("Unesite broj: "))
 print(BrojZnamenki(broj))

@@ -21,3 +21,6 @@ print(duljina)
 for j in  range(len(string)):
     print(string[j])
     
+    while (a <duljina):
+        
+    
